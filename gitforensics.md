@@ -193,7 +193,7 @@ Git isn't perfect. Timestamps can be manipulated locally. History can be rewritt
 In the next chapter, we'll explore how multiple witnesses amplify these properties through the network effect.
 
 
-CHAPTER 2.5: UNDERSTANDING GIT METADATA FORENSICS
+## Chapter 3: UNDERSTANDING GIT METADATA FORENSICS
 
 While Chapter 2 introduced Git's basic forensic properties, this section delves deeper into the rich metadata that Git preserves and why it matters for evidence.
 
@@ -386,7 +386,7 @@ Each layer makes fabrication considerably more difficult.
 Remember: In Git forensics, it's not just what you document—it's the rich metadata trail that Git automatically preserves that often tells the real story.
 
 
-## Chapter 3: THE NETWORK EFFECT
+## Chapter 4: THE NETWORK EFFECT
 
 The true power of Git as a forensic system emerges when multiple people interact with your repository. Each interaction strengthens the evidence through what we call the network effect.
 
@@ -508,7 +508,7 @@ This creates a virtuous cycle where evidence becomes stronger over time rather t
 In the next chapter, we'll dive into practical implementation—how to actually create your evidence repository.
 
 
-## Chapter 4: BASIC IMPLEMENTATION
+## Chapter 5: BASIC IMPLEMENTATION
 
 This chapter provides a step-by-step guide to creating your evidence repository. You don't need to be a programmer—just follow these instructions carefully.
 
@@ -682,7 +682,7 @@ When in doubt, consult with legal counsel about what can be shared publicly.
 The next chapter covers advanced techniques for those comfortable with the basics.
 
 
-## Chapter 5: ADVANCED TECHNIQUES
+## Chapter 6: ADVANCED TECHNIQUES
 
 Once you understand basic repository creation, these advanced techniques can strengthen your evidence network and maximize the forensic value of Git.
 
@@ -968,7 +968,7 @@ The key is making your repository not just evidence, but compelling evidence tha
 Next, we'll explore how behavioral patterns create additional evidence layers.
 
 
-## Chapter 6: THE BEHAVIORAL AMPLIFIER
+## Chapter 7: THE BEHAVIORAL AMPLIFIER
 
 One of the most powerful aspects of Git forensics is how it captures behavioral patterns. The way people interact with your evidence often reveals more than the evidence itself.
 
@@ -1175,7 +1175,7 @@ These reveal:
 The next chapter explores specific applications for workplace documentation.
 
 
-## Chapter 7: WORKPLACE APPLICATIONS
+## Chapter 8: WORKPLACE APPLICATIONS
 
 The workplace is where Git forensics often proves most valuable. Employment disputes, safety concerns, harassment, and contract violations all benefit from transparent, verifiable documentation.
 
@@ -1469,7 +1469,7 @@ The repository exists; the question is audience.
 Next: Protecting larger public interests through documentation.
 
 
-## Chapter 8: PUBLIC INTEREST DOCUMENTATION
+## Chapter 9: PUBLIC INTEREST DOCUMENTATION
 
 Sometimes documentation serves purposes beyond individual disputes. When systemic issues affect public safety, tax dollars, or community welfare, Git forensics becomes a tool for civic accountability.
 
@@ -1743,7 +1743,7 @@ Remember: You're not just documenting problems—you're creating the historical 
 Next: Advanced protection strategies.
 
 
-## Chapter 9: PROTECTION STRATEGIES
+## Chapter 10: PROTECTION STRATEGIES
 
 When you document sensitive issues, you need to protect yourself, your evidence, and sometimes others. This chapter covers comprehensive protection strategies for Git forensics practitioners.
 
@@ -2012,7 +2012,7 @@ Remember: The goal isn't just to document—it's to create positive change while
 Next: Understanding and responding to opposition tactics.
 
 
-## Chapter 10: UNDERSTANDING OPPOSITION
+## Chapter 11: UNDERSTANDING OPPOSITION
 
 When you use Git forensics effectively, you'll encounter various forms of opposition. Understanding these tactics helps you respond strategically rather than emotionally.
 
@@ -2262,7 +2262,7 @@ Let your work speak louder than their attacks.
 Next: Dealing with common challenges in Git forensics.
 
 
-## Chapter 11: COMMON CHALLENGES AND SOLUTIONS
+## Chapter 12: COMMON CHALLENGES AND SOLUTIONS
 
 Every Git forensics practitioner faces challenges. This chapter addresses the most common ones with practical solutions.
 
@@ -2539,7 +2539,7 @@ Remember: Every challenge overcome strengthens your documentation and helps othe
 Next: Addressing platform centralization risks.
 
 
-## Chapter 12: ADDRESSING PLATFORM CENTRALIZATION RISKS
+## Chapter 13: ADDRESSING PLATFORM CENTRALIZATION RISKS
 
 While we've discussed Git's distributed nature, it's important to acknowledge a critical vulnerability: reliance on centralized platforms.
 
@@ -2721,7 +2721,7 @@ Remember: Platform dependency is a vulnerability, but one that can be managed th
 Next: The Pure Git Philosophy.
 
 
-## Chapter 13: THE PURE GIT PHILOSOPHY
+## Chapter 14: THE PURE GIT PHILOSOPHY
 
 A critical principle for Git forensics: Use standard Git, nothing more, nothing less.
 
@@ -2837,7 +2837,7 @@ Your evidence is strongest when anyone, anywhere, can verify it using tools they
 Next: Combating AI-generated evidence.
 
 
-## Chapter 14: COMBATING AI-GENERATED EVIDENCE
+## Chapter 15: COMBATING AI-GENERATED EVIDENCE
 
 The ability to generate convincing fake evidence using AI has become a critical threat to justice and truth. Git forensics provides crucial defenses against this emerging challenge.
 
@@ -3025,7 +3025,7 @@ Remember: The goal isn't to make evidence AI-proof (impossible), but to make fab
 Next: Privacy-preserving techniques.
 
 
-## Chapter 15: PRIVACY-PRESERVING GIT FORENSICS
+## Chapter 16: PRIVACY-PRESERVING GIT FORENSICS
 
 Creating verifiable evidence while protecting sensitive information requires careful balance. This section covers practical techniques for maintaining privacy within Git forensics.
 
@@ -3199,7 +3199,7 @@ Remember: Privacy and verification aren't opposites—they're complementary tool
 Next: The future of Git forensics.
 
 
-## Chapter 16: THE FUTURE OF GIT FORENSICS
+## Chapter 17: THE FUTURE OF GIT FORENSICS
 
 Git forensics is evolving rapidly. This chapter explores emerging trends, potential developments, and how to stay ahead of the curve.
 
