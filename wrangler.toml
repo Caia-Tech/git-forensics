@@ -1,0 +1,8 @@
+# Cloudflare Pages configuration (optional)
+name = "git-forensics"
+compatibility_date = "2024-01-01"
+
+[build]
+# No build command needed for static site
+command = ""
+directory = "."

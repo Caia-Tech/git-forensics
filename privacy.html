@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Git Forensics</title>
+    <meta name="description" content="Privacy policy for gitforensics.org - We don't collect any personal data.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .privacy-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 48px 32px;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="privacy-page">
+        <a href="index.html" class="back-link">
+            <span>←</span>
+            <span>Back to Guide</span>
+        </a>
+        
+        <h1>Privacy Policy</h1>
+        <p><strong>Last updated: January 9, 2025</strong></p>
+        
+        <h2>The Short Version</h2>
+        <p>We don't collect any personal data. This is a static website with no analytics, no cookies, and no tracking.</p>
+        
+        <h2>What We Don't Collect</h2>
+        <ul>
+            <li>No personal information</li>
+            <li>No cookies</li>
+            <li>No analytics or tracking</li>
+            <li>No server logs with personal data</li>
+            <li>No form submissions</li>
+        </ul>
+        
+        <h2>Third-Party Services</h2>
+        <p>This site is hosted on Cloudflare Pages. They may collect basic access logs for security and performance, but we don't have access to any personal data.</p>
+        
+        <p>We load fonts from Google Fonts. Google may collect basic access information when fonts are loaded.</p>
+        
+        <h2>Downloads</h2>
+        <p>When you download the book files, it's a direct download. We don't track downloads or collect any information about who downloads what.</p>
+        
+        <h2>Contact</h2>
+        <p>If you have privacy concerns, contact: privacy@caiatech.com</p>
+        
+        <div class="notice-box" style="margin-top: 48px;">
+            <h3>Your Privacy Matters</h3>
+            <p>This book is about protecting truth and evidence. We respect your privacy as much as we respect your right to document and preserve evidence.</p>
+        </div>
+    </div>
+    
+    <script>
+        // Inherit theme from localStorage
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+</body>
+</html>

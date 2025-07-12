@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Git Forensics</title>
+    <meta name="description" content="Oops! This page crashed. The developer flies solo, no wonder it crashed.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://gitforensics.org/">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-page {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 48px 32px;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .gopher-crashed {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto 32px;
+            display: block;
+            animation: wobble 2s ease-in-out infinite;
+            transform: rotate(-15deg);
+            transition: filter 0.3s ease;
+        }
+        
+        /* Make gopher white in dark mode */
+        [data-theme="dark"] .gopher-crashed {
+            filter: invert(1);
+        }
+        
+        @keyframes wobble {
+            0%, 100% { transform: rotate(-15deg) translateY(0); }
+            25% { transform: rotate(-20deg) translateY(-5px); }
+            75% { transform: rotate(-10deg) translateY(5px); }
+        }
+        
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            color: var(--accent-color);
+            line-height: 1;
+            margin-bottom: 16px;
+            letter-spacing: -0.05em;
+        }
+        
+        .error-message {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        
+        .error-tagline {
+            font-size: 20px;
+            color: var(--text-secondary);
+            margin-bottom: 48px;
+            font-style: italic;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .error-button {
+            padding: 12px 24px;
+            background: var(--bg-primary);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            color: var(--text-primary);
+            transition: all 0.2s ease;
+        }
+        
+        .error-button:hover {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+        
+        .crash-details {
+            margin-top: 64px;
+            padding: 24px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            text-align: left;
+            font-family: var(--font-mono);
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        .crash-details pre {
+            margin: 0;
+            white-space: pre-wrap;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <img src="fun-fly.png" alt="Go gopher's plane crashed" class="gopher-crashed">
+        
+        <div class="error-code">404</div>
+        <h1 class="error-message">Page Not Found</h1>
+        <p class="error-tagline">This developer flies solo, no wonder it crashed.</p>
+        
+        <div class="error-actions">
+            <a href="index.html" class="error-button">Back to Safety</a>
+        </div>
+        
+        <div class="crash-details">
+            <pre>panic: runtime error: page not found at requested altitude
+
+goroutine 1 [flying]:
+main.navigateToPage(0x404)
+        /usr/local/go/src/gopher/flight.go:42 +0x39
+main.(*Gopher).fly(0xc0000b4000, 0x1)
+        /usr/local/go/src/gopher/pilot.go:18 +0x125
+main.(*Plane).propeller(0xc0000a6000, {0x0, 0x0})
+        /usr/local/go/src/gopher/engine.go:7 +0x87
+main.emergencyLanding(...)
+        /usr/local/go/src/gopher/landing.go:404
+main.main()
+        /usr/local/go/src/gopher/main.go:13 +0x20
+exit status 2</pre>
+        </div>
+    </div>
+    
+    <script>
+        // Inherit theme from localStorage
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        
+        // Add some fun console messages
+        console.log('%c🛩️ Mayday! Mayday!', 'font-size: 20px; color: #ff5e5b;');
+        console.log('%cThe gopher has crashed at coordinates 404', 'font-size: 14px; color: #666;');
+        console.log('%cBut don\'t worry, solo pilots always find their way back!', 'font-size: 14px; color: #0969da;');
+    </script>
+</body>
+</html>

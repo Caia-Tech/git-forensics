@@ -1,0 +1,12 @@
+# Security Policy for gitforensics.org
+Contact: security@caiatech.com
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://gitforensics.org/.well-known/security.txt
+
+# About This Site
+This is a static website with no backend or user data collection.
+For security concerns, please contact the email above.
+
+# PGP Key (if you have one)
+# Encryption: https://gitforensics.org/pgp-key.txt

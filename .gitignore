@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local development
+.env
+.env.local
