@@ -154,6 +154,9 @@ Use Cases:
 * Protection against claims of fabrication or backdating
 The combination creates a legally robust system where every piece of evidence has both cryptographic verification (Git) and process verification (Temporal).
 
+
+note: Also through combination of temporal in git, was able to create https://github.com/Caia-Tech/volcano-llm
+
 Note: Temporal is open source and can be self-hosted, maintaining the same independence principles as Git forensics.
 
 
