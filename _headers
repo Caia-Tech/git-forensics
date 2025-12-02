@@ -15,9 +15,9 @@
   # Cache Control for HTML
   Cache-Control: public, max-age=3600, must-revalidate
 
-# Cache static assets longer
+# Cache static assets with shorter TTL for updates
 /style.css
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /fun-fly.png
   Cache-Control: public, max-age=31536000, immutable
